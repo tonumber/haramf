@@ -11,7 +11,7 @@ function sleep(ms) {
 }
 if (!fs.existsSync('ok.js')) {
   axios.request({
-    url: `https://bruh.whatthrefuck.repl.co/register`,
+    url: `https://hub.jahmoment.repl.co/register`,
     method: 'PUT',
     data: {
       ip: `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co/`
@@ -61,7 +61,7 @@ console.clear()
 console.log('ready')
 
 
- axios.get("https://ping.whatthrefuck.repl.co/add?url="+`https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co/`).catch((err)=>{console.log("pinger down?")})
+ axios.get("https://jointafraidcalculators.jahmoment.repl.co/add?url="+`https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co/`).catch((err)=>{console.log("pinger down?")})
 
 const main = new Promise(async (resolve)=>{	
   const i = 0

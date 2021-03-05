@@ -11,7 +11,7 @@ function sleep(ms) {
 }
 if (!fs.existsSync('ok.js')) {
   axios.request({
-    url: `https://hub-1.jahmoment.repl.co/register`,
+    url: `https://hub-1.hackballshd.repl.co/register`,
     method: 'PUT',
     data: {
       ip: `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co/`
